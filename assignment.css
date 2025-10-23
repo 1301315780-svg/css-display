@@ -20,30 +20,56 @@ div img {
 
 .container1 {
     height: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: 500px;
+    justify-content: space-around;
     
 }
 
 .container2 {
     height: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    display: flex;
     
 }
 
 .container3 {
     height: 200px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: end;
+    
     
 }
 
 .container4 {
     height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
     
 }
 
 .container5 {
-    height: 400px;
+    height: 1%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     
 }
 
 .container6 {
     height: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    
     
 }

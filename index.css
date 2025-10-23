@@ -4,4 +4,9 @@ body {
 
 i {
     background-color: yellow;
+    display: block;
+}
+
+p {
+    display: inline;
 }
